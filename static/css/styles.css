@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700; 
+  }
+  
+  
+.hero-section {
+    background-image: url('/static/assests/img/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+  
+.hero-content {
+    margin-top: 20%;
+    margin-right: 27%;
+    color: black;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1, .hero-section h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  
+.hero-content .tagline {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5); 
+  }
+
+.nav-pills .nav-link {
+  color: white;
+  }
+
+.nav-link.active, .nav-link:focus {
+  background-color: white;
+  color: black;
+  border-radius: .25rem;
+  box-shadow: none;
+  }
+
+.nav-link:hover {
+  background-color: white;
+  color: red;
+  }
+
+html, body {
+height: 100%;
+margin: 0;
+}
+
+.button-ayat, .button-hadith {
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+    margin: auto; 
+    text-decoration: none;
+}
+  
+  .button-ayat:hover, .button-hadith:hover {
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: #000; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+  }
+  
+
+.home {
+    margin-top: 15%;
+    
+}
+
+  
+.verse-content {
+    margin-top: 20%;
+    margin-right: 27%;
+    color: black;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.verse-section h2, .hadith-section h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  
+.verse-content .tagline {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
+.quran h1 {
+    color: black;
+}
+
+.verse-section {
+    min-height: 100vh;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/static/assests/img/quran.jpg');
+  }
+
+  .hadith-section {
+    min-height: 100vh;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/static/assests/img/hadith.jpg');
+  }

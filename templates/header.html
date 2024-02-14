@@ -1,0 +1,9 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link {% if request.endpoint == 'home' %}active{% endif %}" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="{{ url_for('verse') }}" class="nav-link {% if request.endpoint == 'quran' %}active{% endif %}">Verse</a></li>
+            <li class="nav-item"><a href="{{ url_for('hadith') }}" class="nav-link {% if request.endpoint == 'hadith' %}active{% endif %}">Hadith</a></li>
+        </ul>
+    </div>
+</nav>
