@@ -2,6 +2,7 @@
 # be added to version control and will not be uploaded to Github.
 # For example we ignore the hidden files from Pycharm and VS Code.
 .idea/
+.vscode/
 
 ### Also any macOS specific files
 .DS_Store
